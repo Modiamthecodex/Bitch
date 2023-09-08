@@ -1,0 +1,12 @@
+AntiKeybind = "c"
+AntiType = "Sky" --<< Sky, Under, Desync >>--
+AimViewerKeybind = "t"
+AimViewerColor = Color3.fromRGB(255,0,0)
+---
+loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/anti/main/wenny7043'))()Tab:AddButton({
+	Name = "Qtool!",
+	Callback = function()
+      		print("loading")
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Modiamthecodex/Roblox-q-tool-for-mobiel/main/Q%20tool"))()
+ 	end    
+})
